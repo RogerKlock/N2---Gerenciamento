@@ -1,4 +1,5 @@
-from index import soma
+def soma(a, b):
+    return a + b
 
-def test_soma():
-    assert soma(2, 3) == 5
+if __name__ == "__main__":
+    print("Soma:", soma(2, 3))
