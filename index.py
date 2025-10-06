@@ -1,6 +1,4 @@
-def soma(a, b):
-    return a + b
+from index import soma
 
-if __name__ == "__main__":
-    print("Soma:", soma(2, 3))
-    print("Soma concluída")
+def test_soma():
+    assert soma(2, 3) == 5
